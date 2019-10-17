@@ -1,0 +1,12 @@
+create table school(
+	RegNo int(3) Primary Key,
+	Name varchar(30),
+	Marks int(3),
+	Subject varchar(30),
+	Department varchar(10)
+);
+
+insert into school (RegNo, Name, Marks, Subject, Department) values (1, 'John', 70, 'Java', 'IT'), 
+	(2, 'Peter', 95, 'VB', 'Sales'),
+	(3, 'James', 36, 'Java', 'HR'),
+	(4, 'Alice', 92, 'Python', 'IT');  
